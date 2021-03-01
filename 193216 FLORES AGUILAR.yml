@@ -45,7 +45,7 @@ metadata:
   name: configmap-postgres
   namespace: manejadores
 data:
-  postgres.user: root
+  postgres.user: postgres
   postgres.password: example
   postgres.db: mardb
 ---
